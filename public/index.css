@@ -1,0 +1,103 @@
+body{
+    background-color: whitesmoke;
+}
+
+.post{
+    
+    background-origin: padding-box;
+    width: 400px;
+    height: min-content;
+    margin: 5px;
+    background-color: white;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.quora{
+    padding: 5px;
+    background-color: white;
+}
+
+.center{
+    margin-top: 120px;
+}
+
+.user{
+    font-style: italic;
+}
+
+.id{
+    color: rgb(116, 49, 223);
+}
+
+h2{
+    color:brown;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1{
+    color: maroon;
+    font-style: italic;
+    background-color: white;
+}
+
+
+
+.HEAD{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: fixed;
+    background-color: white;
+    padding-left: 0.5rem;
+    height: min-content;
+}
+
+h3{
+    margin: 50PX;
+    margin-left: 50px;
+    
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    border: solid white;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.Search{
+    margin: auto;
+    margin-left: 60px;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.sidebar{
+    position: fixed;
+    margin: auto;
+    margin-top: 120px;
+   margin-right: 500px;
+   
+}
+
+h4{
+    padding: 5px;
+    
+}
+
+.que{
+    background-color: red;
+    margin-left: 1rem;
+    border: solid red;
+    border-radius: 5px;
+    margin-right: 120px;
+}

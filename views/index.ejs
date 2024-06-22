@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="/index.css"/>
+</head>
+<body>
+    
+    
+
+
+   <div>
+        <div class="HEAD">
+                <h1>QUORA</h1>
+                <h3>Home</h3>
+                <h3>Answer</h3>
+                <h3>Notification</h3>
+                <input class="Search" placeholder="Search" type="text">
+                <img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg" alt="profile-picture">
+                <button class="que">Add Question</button>
+        </div>
+        <hr>
+
+        <div class="sidebar">
+            <h4><a href="">Feeds</a></h4>
+            <h4> <a href="http://localhost:8080/posts/new"> New Question</a></h4>
+            <h4><a href="">Startup India</a></h4>
+            <h4>Location</h4>
+        </div>
+    </div>
+    <% for(post of posts){ %>
+    
+
+        
+        
+        <div class="post">
+            <div class="center"><h1 class="quora">Quora Post</h1>
+            <h3 class="user">User: @<%= post.username %></h3>
+            <h3 class="cont"><%= post.content %></h3>
+            <br>
+            <a href="http://localhost:8080/posts/<%=post.id%>">See in details </a>
+            </div>
+        </div>
+    <%}%>
+
+    <br>
+    <br><button class="newPost">
+    <a href="http://localhost:8080/posts/new">Create a new post</a>
+    </button>
+</body>
+</html>
